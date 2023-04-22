@@ -2,7 +2,7 @@
 import React from "react";
 
 // Style
-import { Container } from "../../assets/styles/utilities.styles";
+import { Container } from "../../assets/styles";
 import {
   FooterWrapper,
   FooterCopyrightText,

@@ -1,8 +1,8 @@
 // Modules
 import styled from "styled-components";
 
-// Variables
-import { COLORS } from "../../assets/styles/variables.styles";
+// Shared
+import { COLORS } from "../../assets/styles";
 
 // Components
 import { ReactComponent as NigeriaSvg } from "../../assets/images/nigeria-icon.svg";
@@ -13,7 +13,6 @@ export const FooterWrapper = styled.div`
 `;
 
 export const FooterCopyrightText = styled.p`
-  font-size: 1.8rem;
   line-height: 18px;
   color: ${COLORS["text-color-2"]};
   display: flex;

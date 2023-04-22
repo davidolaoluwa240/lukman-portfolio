@@ -1,11 +1,8 @@
 // Modules
 import styled from "styled-components";
 
-// Utilities
-import { Container } from "../../assets/styles/utilities.styles";
-
-// Variables
-import { COLORS } from "../../assets/styles/variables.styles";
+// Shared
+import { Container, COLORS } from "../../assets/styles";
 
 // Components
 import { NavLink } from "react-router-dom";

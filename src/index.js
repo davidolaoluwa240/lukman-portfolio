@@ -7,7 +7,7 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./app/App";
 
 // Style
-import "./index.scss";
+import "./index.styles.scss";
 
 // Mount React To DOM
 const container = document.getElementById("root");
