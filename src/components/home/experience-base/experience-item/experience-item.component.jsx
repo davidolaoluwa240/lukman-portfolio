@@ -7,18 +7,22 @@ import {
   ExperienceItemWrapper,
 } from "./experience-item.styles";
 
-export const ExperienceItem = ({ jobRole, companyName, companyWebsite }) => {
+export const ExperienceItem = ({
+  jobRole,
+  companyName,
+  companyWebsite,
+  companyExitDate,
+}) => {
   return (
     <ExperienceItemWrapper>
-      <ExperienceItemContent>{jobRole}</ExperienceItemContent>
+      <ExperienceItemContent position="left">{jobRole}</ExperienceItemContent>
 
-      <ExperienceItemContent
-        as="a"
-        href={companyWebsite}
-        target="_blank"
-        rel="noopener noreferrer"
-        dangerouslySetInnerHTML={{ __html: companyName }}
-      />
+      <ExperienceItemContent position="right">
+        <a href={companyWebsite} target="_blank" rel="noopener noreferrer">
+          {companyName}
+        </a>
+        {companyExitDate && <small>(Left {companyExitDate})</small>}
+      </ExperienceItemContent>
     </ExperienceItemWrapper>
   );
 };

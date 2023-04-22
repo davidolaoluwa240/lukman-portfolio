@@ -60,8 +60,9 @@ export const EXPERIENCE_ITEMS = [
   {
     id: 1,
     jobRole: "Senior UX Designer",
-    companyName: "Freterium <small>(Left March 2023)</small>",
+    companyName: "Freterium",
     companyWebsite: "https://www.freterium.com/",
+    companyExitDate: "March 2023",
   },
   {
     id: 2,

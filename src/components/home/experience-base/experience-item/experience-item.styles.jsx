@@ -13,15 +13,15 @@ export const ExperienceItemWrapper = styled.div`
 
 export const ExperienceItemContent = styled.span`
   line-height: 37px;
-  flex-basis: 69%;
+  ${({ position }) =>
+    position === "right" ? "flex-basis: 40%" : "flex-basis: 60%"};
 
-  &:link {
+  a {
     text-decoration: underline;
-    flex-basis: 40%;
   }
 
   small {
     font-size: 1.2rem;
-    text-decoration: none;
+    margin-left: 0.3rem;
   }
 `;
