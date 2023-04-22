@@ -16,8 +16,10 @@ export const SecondaryHero = ({ title, description }) => {
   return (
     <SecondaryHeroWrapper>
       <Container>
-        <SecondaryHeadingAlt mb="sm">{title}</SecondaryHeadingAlt>
-        {!!description && (
+        <SecondaryHeadingAlt as="h1" mb="sm">
+          {title}
+        </SecondaryHeadingAlt>
+        {description && (
           <SecondaryHeroDescription>{description}</SecondaryHeroDescription>
         )}
         <HorizontalLine />

@@ -1,7 +1,8 @@
-// Assets
+// Components
 import { ReactComponent as JobAsusu } from "../assets/images/job-asusu.svg";
 import { ReactComponent as JobBongalo } from "../assets/images/job-bongalo.svg";
 import { ReactComponent as JobFreterium } from "../assets/images/job-freterium.svg";
+import { NigeriaIcon } from "../components/footer/footer.styles";
 
 // Project Items
 export const PROJECT_ITEMS = [
@@ -134,5 +135,39 @@ export const READING_ITEMS = [
     id: 5,
     content: "7 strategies to build a successful Design team",
     link: "https://www.technicallyspeakinghw.com/articles/7-strategies-to-build-a-successful-design-team",
+  },
+];
+
+// Contact Items
+export const CONTACT_ITEMS = [
+  {
+    id: 1,
+    icon: "📧",
+    content:
+      "Email me on <a target='_blank' href='mailto:lukmann.design@gmail.com' rel='noopener noreferrer'>lukmann.design@gmail.com</a>",
+  },
+  {
+    id: 2,
+    icon: "🔗",
+    content:
+      "Connect with me on <a target='_blank' href='https://www.linkedin.com/in/lukmansuleiman/' rel='noopener noreferrer'>LinkedIn</a>",
+  },
+  {
+    id: 3,
+    icon: "📸",
+    content:
+      "Follow me on <a target='_blank' href='https://www.instagram.com/lukmansuleiman_/' rel='noopener noreferrer'>Instagram</a>",
+  },
+  {
+    id: 4,
+    icon: "👨🏾‍💻",
+    content:
+      "Download my <a target='_blank' href='https://drive.google.com/file/d/1cZpL7mV2dXzCU4xIWnzGh7zHEKXg9cOz/view' rel='noopener noreferrer'>Resume</a>",
+  },
+  {
+    id: 5,
+    icon: "📍",
+    content: "Currently based in Nigeria",
+    ContentIcon: NigeriaIcon,
   },
 ];

@@ -3,8 +3,6 @@ import React from "react";
 
 // Components
 import { Link } from "react-router-dom";
-
-// Assets
 import { ReactComponent as LukmanLogo } from "../../assets/images/logo.svg";
 
 // Style
