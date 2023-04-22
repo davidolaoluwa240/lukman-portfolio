@@ -48,6 +48,13 @@ export const SecondaryHeading = styled.h2`
   }}
 `;
 
+export const SecondaryHeadingAlt = styled(SecondaryHeading)`
+  text-transform: none;
+  font-size: 4.2rem;
+  line-height: 58px;
+  letter-spacing: -2px;
+`;
+
 export const HorizontalLine = styled.hr`
-  color: ${COLORS["horizontal-color"]};
+  border-color: ${COLORS["horizontal-color"]};
 `;
