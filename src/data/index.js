@@ -172,3 +172,255 @@ export const CONTACT_ITEMS = [
     ContentIcon: NigeriaIcon,
   },
 ];
+
+// Resources Items
+export const RESOURCES_ITEMS = [
+  {
+    id: 1,
+    content:
+      "3 Persona Types: Lightweight, Qualitative, and Statistical by NNGroup",
+    link: "https://www.nngroup.com/articles/persona-types/",
+  },
+  {
+    id: 2,
+    content:
+      "5 things UX Researchers can do differently: a reflection after Uber’s layoffs by Elsa Ho",
+    link: "https://uxdesign.cc/five-things-ux-researchers-can-do-differently-a-reflection-after-ubers-lay-off-9dd967148056",
+  },
+  {
+    id: 3,
+    content: "Complex Application Design: A 5-Layer Framework by NNGroup",
+    link: "https://www.nngroup.com/articles/complex-application-design-framework/",
+  },
+  { id: 4, content: "Choosing Your Journey by MJ Blehart", link: "" },
+  {
+    id: 5,
+    content:
+      "A Customer Journey Map of the ProductPlan First Time User Experience by Jeremy Rawson",
+    link: "",
+  },
+  { id: 6, content: "Describing Personas by Indi Young", link: "" },
+  {
+    id: 7,
+    content: "Design’s Unsexy Middle Bits by Christina Wodtke",
+    link: "",
+  },
+  {
+    id: 8,
+    content: "Designing emotional micro-interactions by Antony Ribot",
+    link: "",
+  },
+  {
+    id: 9,
+    content: "Designing Services That Deliver by G. Lynn Shostack",
+    link: "",
+  },
+  {
+    id: 10,
+    content:
+      "Digital Transformation Is Not About Technology by Behnam Tabrizi , Ed Lam , Kirk Girard and Vernon Irvin",
+    link: "",
+  },
+  {
+    id: 11,
+    content:
+      "Escape Velocity: Finding Our Path in the Next Decade by Molly Stevens",
+    link: "",
+  },
+  {
+    id: 12,
+    content: "Five Habits of Design Thinking by Christina Wodtke",
+    link: "",
+  },
+  {
+    id: 13,
+    content:
+      "Foundations to build on: Intercom’s principles for building product by Des Taylor",
+    link: "",
+  },
+  {
+    id: 14,
+    content: "Generating Focused Ideas Through Practical Empathy by Indi Young",
+    link: "",
+  },
+  {
+    id: 15,
+    content: "Good writing is good product design by Jordan Jackson",
+    link: "",
+  },
+  { id: 16, content: "Hazard Mapping by Erika Hall", link: "" },
+  {
+    id: 17,
+    content:
+      "How to partner with UX researchers to positively impact product and business by Tatiana Vlahovic",
+    link: "",
+  },
+  { id: 18, content: "How to Wield Empathy by Indi Young", link: "" },
+  {
+    id: 19,
+    content:
+      "If time travel were possible, what would I tell myself as a junior UX researcher? by Mark",
+    link: "",
+  },
+  { id: 20, content: "Jobs to be done personas by Nikki Anderson", link: "" },
+  {
+    id: 21,
+    content:
+      "Jobs To Be Done: An Occasionally Useful UX Gimmick by Jared Spool",
+    link: "",
+  },
+  {
+    id: 22,
+    content:
+      "Know Your Customers’ “Jobs to Be Done” by Clayton M. Christensen , Taddy Hall , Karen Dillon and David S. Duncan",
+    link: "",
+  },
+  {
+    id: 23,
+    content:
+      "The Ultimate Guide to Mixed Methods User Research by Ben Wiedmaier",
+    link: "",
+  },
+  {
+    id: 24,
+    content: "My UX Research toolbox as a team of one by Lindsay Boylan",
+    link: "",
+  },
+  {
+    id: 25,
+    content: "Needfinding for Disruptive Innovation by Christina Wotdke",
+    link: "",
+  },
+  {
+    id: 26,
+    content: "Product People, Mind the Gap! by Samuel Hulick",
+    link: "",
+  },
+  {
+    id: 27,
+    content: "Research Questions Are Not Interview Questions by Erika Hall",
+    link: "",
+  },
+  {
+    id: 28,
+    content:
+      "Console Gaming Then and Now – 1997 Developer Interview by Gunpei Yokoi x Yukihito Morikawa",
+    link: "",
+  },
+  {
+    id: 29,
+    content: "Six Chasms in Need of Crossing by Anirudh Dhebar",
+    link: "",
+  },
+  {
+    id: 30,
+    content: "Six Questions to Structure Great Projects by J.T. Trollman",
+    link: "",
+  },
+  {
+    id: 31,
+    content: "Surviving enterprise UX: communicating value by Lisa Angela",
+    link: "",
+  },
+  {
+    id: 32,
+    content:
+      "Surviving Enterprise UX: the importance of targeted user research by Lisa Angela",
+    link: "",
+  },
+  {
+    id: 33,
+    content: "The 7 Deadly Sins of User Research by David Travis",
+    link: "",
+  },
+  { id: 34, content: "The 9 Rules of Design Research by Erika Hall", link: "" },
+  {
+    id: 35,
+    content: "The Complete Guide to the Kano Model by Folding Burritos",
+    link: "",
+  },
+  {
+    id: 36,
+    content:
+      "The Emotional Machine: Searching for Soul in the Autonomous Future",
+    link: "",
+  },
+  {
+    id: 37,
+    content: "The Future of UX Research by Monty Hammontree",
+    link: "",
+  },
+  {
+    id: 38,
+    content: "The History of Design Anthropology by Matt Artz",
+    link: "",
+  },
+  {
+    id: 39,
+    content:
+      "The lost art of injecting humanity into product design by Richard Bailey",
+    link: "",
+  },
+  {
+    id: 40,
+    content:
+      "The New Enterprise Designer by Craig Mackintosh, American Express and Linda Quarles, frog",
+    link: "",
+  },
+  {
+    id: 41,
+    content: "The Next Century of Design Education by Albert Shum",
+    link: "",
+  },
+  { id: 42, content: "The Pyramid Principle by Ameet Ranadive", link: "" },
+  {
+    id: 43,
+    content:
+      "The Quintessential Guide For Building An Unforgettable First-time User Experience by Wayne Chang",
+    link: "",
+  },
+  {
+    id: 44,
+    content:
+      "The Top 5 Behavioural Economics Principles for Designers by Bridgeable",
+    link: "",
+  },
+  {
+    id: 45,
+    content: "The Ultimate Guide to Customer Onboarding by Christina Perricone",
+    link: "",
+  },
+  {
+    id: 46,
+    content:
+      "Uncover and make the most of your signature moments by Jess Leitch",
+    link: "",
+  },
+  {
+    id: 47,
+    content:
+      "Understand and define users with the User Profile Model by Jessica Sherratt",
+    link: "",
+  },
+  {
+    id: 48,
+    content:
+      "Understanding your “aha” moments and putting them to work by Lynsey Duncan",
+    link: "",
+  },
+  { id: 49, content: "User research is a team sport by Myddelton", link: "" },
+  { id: 50, content: "What Autonomy Can Deliver by Jonah Houston", link: "" },
+  { id: 51, content: "What UX from 1989 can teach us by Dina Zuko", link: "" },
+  { id: 52, content: "When Coffee and Kale Compete by Vipul Bansal", link: "" },
+  {
+    id: 53,
+    content:
+      "When Customers Want to See the Human Behind the Product by Adam Waytz",
+    link: "",
+  },
+  {
+    id: 54,
+    content: "Why Highly Intelligent People Are Miserable by Michael Ndubuaku",
+    link: "",
+  },
+];
