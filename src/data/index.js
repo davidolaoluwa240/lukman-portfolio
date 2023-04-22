@@ -292,7 +292,7 @@ export const RESOURCES_ITEMS = [
   {
     id: 22,
     content:
-      "Know Your Customers’ “Jobs to Be Done” by Clayton M. Christensen , Taddy Hall , Karen Dillon and David S. Duncan",
+      "Know Your Customers’ “Jobs to Be Done” by Clayton M. Christensen, Taddy Hal, Karen Dillon and David S. Duncan",
     link: "https://hbr.org/2016/09/know-your-customers-jobs-to-be-done",
   },
   {
