@@ -4,6 +4,7 @@ import { createRoot } from "react-dom/client";
 
 // Components
 import { BrowserRouter } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 import App from "./app/App";
 
 // Style
