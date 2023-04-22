@@ -5,4 +5,5 @@ export const COLORS = {
   "text-color-3": "##212121",
   "text-color-4": "#fff3ef",
   "horizontal-color": "#E9C7BB",
+  "deep-danger-color": "#830909",
 };

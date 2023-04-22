@@ -16,9 +16,11 @@ export const SecondaryHero = ({ title, description }) => {
   return (
     <SecondaryHeroWrapper>
       <Container>
-        <SecondaryHeadingAlt as="h1" mb="sm">
-          {title}
-        </SecondaryHeadingAlt>
+        <SecondaryHeadingAlt
+          as="h1"
+          mb="sm"
+          dangerouslySetInnerHTML={{ __html: title }}
+        />
         {description && (
           <SecondaryHeroDescription>{description}</SecondaryHeroDescription>
         )}
