@@ -468,3 +468,90 @@ export const RESOURCES_ITEMS = [
     link: "https://medium.com/swlh/why-highly-intelligent-people-are-miserable-c257f7d0680c",
   },
 ];
+
+// Freterium Project Hero Details
+export const FRETERIUM_PROJECT_HERO_DETAILS = {
+  jobContext: "Redefining UX for Digital Transportation software",
+  projectYear: 2023,
+  projectWebsite: "https://www.freterium.com/",
+  jobRole: "Lead UX designer",
+  projectPlatform: [
+    { id: 1, name: "Android App" },
+    { id: 2, name: "Responsive Web App" },
+  ],
+  jobRoleSumary: [
+    {
+      id: 1,
+      name: "Research",
+    },
+    {
+      id: 2,
+      name: "Leading Design Workshop",
+    },
+    {
+      id: 3,
+      name: "Wireframing",
+    },
+    {
+      id: 4,
+      name: "Screen Flows",
+    },
+    {
+      id: 5,
+      name: "UX Design",
+    },
+    {
+      id: 6,
+      name: "Visual Design",
+    },
+    {
+      id: 7,
+      name: "Prototyping",
+    },
+    {
+      id: 8,
+      name: "Usability Testing",
+    },
+  ],
+  jobCollaborators: [
+    {
+      id: 1,
+      collaboratorName: "Réda MANSOURI",
+      collaboratorRole: "Head of prodcut",
+      collaboratorSocialLink:
+        "https://www.linkedin.com/in/r%C3%A9da-mansouri-26015691/",
+    },
+    {
+      id: 2,
+      collaboratorName: "Reda SAKHI",
+      collaboratorRole: "Product Owner",
+      collaboratorSocialLink: "https://www.linkedin.com/in/redasakhi/",
+    },
+    {
+      id: 3,
+      collaboratorName: "Viktor Demydov",
+      collaboratorRole: "UX/UI Designer",
+      collaboratorSocialLink: "https://www.linkedin.com/in/vicd129/",
+    },
+    {
+      id: 4,
+      collaboratorName: "Ghita Dassouli",
+      collaboratorRole: "Business Analyst & Customer Success Manager",
+      collaboratorSocialLink:
+        "https://www.linkedin.com/in/ghita-dassouli-077878152/",
+    },
+    {
+      id: 5,
+      collaboratorName: "Almahdi Guedira",
+      collaboratorRole: "Head of Customer Success",
+      collaboratorSocialLink:
+        "https://www.linkedin.com/in/almahdi-guedira-5b9b236b/",
+    },
+    {
+      id: 6,
+      collaboratorName: "Denis Kurilov",
+      collaboratorRole: "Tech Lead",
+      collaboratorSocialLink: "https://www.linkedin.com/in/dkourilov/",
+    },
+  ],
+};

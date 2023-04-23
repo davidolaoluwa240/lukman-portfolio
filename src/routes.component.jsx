@@ -5,10 +5,10 @@ import React from "react";
 import { Routes as Switch, Route } from "react-router-dom";
 
 // Routes
-import { Home, Connect, Resources } from "./routes";
+import { Home, Connect, Resources, FreteriumProjectDetails } from "./routes";
 
 // Layouts
-import { LandingLayout } from "./layouts";
+import { LandingLayout, ProjectDetailsLayout } from "./layouts";
 
 const Routes = () => {
   return (
@@ -17,6 +17,9 @@ const Routes = () => {
         <Route index element={<Home />} />
         <Route path="connect" element={<Connect />} />
         <Route path="resources" element={<Resources />} />
+        <Route path="projects" element={<ProjectDetailsLayout />}>
+          <Route path="freterium" element={<FreteriumProjectDetails />} />
+        </Route>
       </Route>
     </Switch>
   );

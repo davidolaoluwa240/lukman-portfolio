@@ -55,6 +55,13 @@ export const SecondaryHeadingAlt = styled(SecondaryHeading)`
   letter-spacing: -2px;
 `;
 
+export const SecondaryHeadingV2 = styled(SecondaryHeading)`
+  text-transform: none;
+  color: rgba(38, 18, 10, 0.8);
+  font-weight: 700;
+  max-width: 735px;
+`;
+
 export const HorizontalLine = styled.hr`
   border-color: ${COLORS["horizontal-color"]};
 `;
