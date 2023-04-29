@@ -10,6 +10,7 @@ import { ReactComponent as FreteriumDriver } from "../../../../assets/images/fre
 // Style
 import { Container } from "../../../../assets/styles";
 import {
+  ProjectDetailBaseWrapper,
   ProjectDetailBlock,
   ProjectDetailHeading,
   ProjectDetailContent,
@@ -19,14 +20,13 @@ import {
   ProjectDetailButton,
 } from "../../project-details.styles";
 import {
-  FreteriumProjectDetailBaseWrapper,
   FreteriumProjectDetailCardList,
   FreteriumProjectDetailCard,
 } from "./freterium-project-detail-base.styles";
 
 export const FreteriumProjectDetailBase = () => {
   return (
-    <FreteriumProjectDetailBaseWrapper>
+    <ProjectDetailBaseWrapper>
       <Container>
         <ProjectDetailBlock>
           <ProjectDetailHeading>Introduction</ProjectDetailHeading>
@@ -253,6 +253,6 @@ export const FreteriumProjectDetailBase = () => {
           </ProjectDetailButton>
         </ProjectDetailButtonGroup>
       </Container>
-    </FreteriumProjectDetailBaseWrapper>
+    </ProjectDetailBaseWrapper>
   );
 };

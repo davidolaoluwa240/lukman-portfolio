@@ -4,6 +4,10 @@ import styled, { css } from "styled-components";
 // Shared
 import { COLORS } from "../../assets/styles";
 
+export const ProjectDetailBaseWrapper = styled.section`
+  margin-top: 9.1rem;
+`;
+
 export const ProjectDetailBlock = styled.div`
   &:not(:last-child) {
     margin-bottom: 2.4rem;
@@ -69,6 +73,7 @@ export const ProjectDetailButton = styled.button`
   font-weight: inherit;
   line-height: 23px;
   cursor: pointer;
+  background: transparent;
   backface-visibility: hidden;
   transition: transform 0.3s linear, background 0.3s linear,
     border-color 0.3s linear;
@@ -85,12 +90,14 @@ export const ProjectDetailButton = styled.button`
     margin-right: 4rem;
   }
 
-  ${({ color }) => {
-    switch (color) {
+  ${({ btnColor }) => {
+    switch (btnColor) {
       case "secondary":
         return css`
           border: 2px solid ${COLORS["primary-color"]};
           color: ${COLORS["primary-color"]};
+          background: ${COLORS["white-color"]};
+          padding: 1.7rem 1.8rem 1.5rem 1.9rem;
 
           &:hover {
             border-color: rgba(190, 88, 52, 0.8);

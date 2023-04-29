@@ -479,7 +479,7 @@ export const FRETERIUM_PROJECT_HERO_DETAILS = {
     { id: 1, name: "Android App" },
     { id: 2, name: "Responsive Web App" },
   ],
-  jobRoleSumary: [
+  jobRoleSummary: [
     {
       id: 1,
       name: "Research",

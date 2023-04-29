@@ -5,7 +5,13 @@ import React from "react";
 import { Routes as Switch, Route } from "react-router-dom";
 
 // Routes
-import { Home, Connect, Resources, FreteriumProjectDetail } from "./routes";
+import {
+  Home,
+  Connect,
+  Resources,
+  FreteriumProjectDetail,
+  BongaloProjectDetail,
+} from "./routes";
 
 // Layouts
 import { LandingLayout, ProjectDetailsLayout } from "./layouts";
@@ -19,6 +25,7 @@ const Routes = () => {
         <Route path="resources" element={<Resources />} />
         <Route path="projects" element={<ProjectDetailsLayout />}>
           <Route path="freterium" element={<FreteriumProjectDetail />} />
+          <Route path="bongalo" element={<BongaloProjectDetail />} />
         </Route>
       </Route>
     </Switch>

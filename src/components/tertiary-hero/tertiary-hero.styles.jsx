@@ -25,11 +25,11 @@ export const TertiaryHeroItemWrapper = styled.div`
 `;
 
 export const TertiaryHeroItem = styled.div`
-  ${({ visible }) => !visible && "display: none"}
-
-  &:nth-child(5) {
+  &:nth-of-type(5) {
     align-self: center;
   }
+
+  ${({ hide }) => hide && "display: none"};
 `;
 
 export const TertiaryHeroItemHeading = styled.h6`

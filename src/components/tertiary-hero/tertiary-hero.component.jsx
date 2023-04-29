@@ -21,7 +21,7 @@ export const TertiaryHero = ({ item }) => {
     jobRole,
     projectYear,
     jobCollaborators,
-    jobRoleSumary,
+    jobRoleSummary,
     projectWebsite,
     projectPlatform,
   } = item;
@@ -43,7 +43,7 @@ export const TertiaryHero = ({ item }) => {
   );
 
   // Job Role Summary Items
-  const renderedJobSummaryItems = jobRoleSumary.map(({ id, name }) => (
+  const renderedJobSummaryItems = jobRoleSummary.map(({ id, name }) => (
     <TertiaryHeroItemContent as="li" key={id}>
       {name}
     </TertiaryHeroItemContent>
@@ -94,7 +94,7 @@ export const TertiaryHero = ({ item }) => {
             </TertiaryHeroSocialLink>
           </TertiaryHeroItem>
 
-          <TertiaryHeroItem visible={!!projectPlatform.length}>
+          <TertiaryHeroItem hide={!projectPlatform.length}>
             <TertiaryHeroItemHeading>Platform</TertiaryHeroItemHeading>
             <List>{renderedProjectPlatformItems}</List>
           </TertiaryHeroItem>
