@@ -555,3 +555,80 @@ export const FRETERIUM_PROJECT_HERO_DETAILS = {
     },
   ],
 };
+
+// Bongalo Project Hero Details
+export const BONGALO_PROJECT_HERO_DETAILS = {
+  jobContext:
+    "Bongalo (Africa’s Airbnb) is a platform that provides solution for finding vacation homes.",
+  projectYear: 2021,
+  projectWebsite: "https://bongalo.com/",
+  jobRole: "Lead Product designer",
+  projectPlatform: [
+    {
+      id: 1,
+      name: "Android/ iOS App",
+    },
+    {
+      id: 2,
+      name: "Responsive Web App",
+    },
+  ],
+  jobRoleSummary: [
+    {
+      id: 1,
+      name: "User Interview",
+    },
+    {
+      id: 2,
+      name: "Wireframing",
+    },
+    {
+      id: 3,
+      name: "Screen Flows",
+    },
+    {
+      id: 4,
+      name: "Visual Design",
+    },
+    {
+      id: 5,
+      name: "Interaction Design",
+    },
+  ],
+  jobCollaborators: [
+    {
+      id: 1,
+      collaboratorName: "Jr Nosouh Tonteh",
+      collaboratorRole: "Product Manager",
+      collaboratorSocialLink:
+        "https://www.linkedin.com/in/jr-nosouh-tonteh-4052871ba/",
+    },
+    {
+      id: 2,
+      collaboratorName: "Nsikan Etukudoh",
+      collaboratorRole: "Product designer",
+      collaboratorSocialLink:
+        "https://www.linkedin.com/in/jr-nosouh-tonteh-4052871ba/",
+    },
+    {
+      id: 3,
+      collaboratorName: "David Atebisun",
+      collaboratorRole: "Frontend engineer",
+      collaboratorSocialLink:
+        "https://www.linkedin.com/in/david-atebisun-4ab786171/",
+    },
+    {
+      id: 4,
+      collaboratorName: "Nelson Bassey",
+      collaboratorRole: "Lead Software engineer",
+      collaboratorSocialLink: "https://www.linkedin.com/in/nbassey/",
+    },
+    {
+      id: 5,
+      collaboratorName: "Minuifuong Nghombombong",
+      collaboratorRole: "CEO",
+      collaboratorSocialLink:
+        "https://www.linkedin.com/in/epaphrate-minuifoung?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABYbE28BlyRs7sOj2XPL42bcgdevjU6cjA8",
+    },
+  ],
+};
