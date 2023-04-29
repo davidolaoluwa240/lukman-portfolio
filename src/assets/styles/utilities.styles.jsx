@@ -22,7 +22,6 @@ export const PrimaryHeading = styled.h1`
 `;
 
 export const PrimaryHeadingBold = styled(PrimaryHeading)`
-  font-family: "Cormorant", serif;
   font-weight: 700;
   line-height: 58.13px;
   color: ${COLORS["primary-color"]};

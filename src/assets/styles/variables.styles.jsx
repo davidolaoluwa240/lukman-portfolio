@@ -7,4 +7,5 @@ export const COLORS = {
   "text-color-5": "#349abe",
   "horizontal-color": "#E9C7BB",
   "deep-danger-color": "#830909",
+  "white-color": "#ffffff",
 };
