@@ -57,7 +57,7 @@ export const ProjectDetailContent = styled.p`
     }
   }};
 
-  ${({ textAlign }) => `text-align: ${textAlign}`}
+  ${({ textAlign }) => textAlign && `text-align: ${textAlign}`}
 `;
 
 export const ProjectDetailQuote = styled.blockquote`

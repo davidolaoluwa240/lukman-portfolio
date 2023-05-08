@@ -17,6 +17,7 @@ import {
   ProjectDetailList,
   ProjectDetailSmallHeading,
 } from "../../project-details.styles";
+import { AsusuListGroup } from "./asusu-project-detail-base.styles";
 
 export const AsusuProjectDetailBase = () => {
   return (
@@ -173,6 +174,44 @@ export const AsusuProjectDetailBase = () => {
             We then used these Insights to ensure that all product design
             decisions do benefit the user.
           </ProjectDetailContent>
+
+          <AsusuListGroup>
+            <div>
+              <ProjectDetailSmallHeading styleType="secondary">
+                Teller Pain
+              </ProjectDetailSmallHeading>
+
+              <ProjectDetailList>
+                <ProjectDetailContent as="li">
+                  - Managing members
+                </ProjectDetailContent>
+                <ProjectDetailContent as="li">
+                  - Sharing summary transaction report
+                </ProjectDetailContent>
+                <ProjectDetailContent as="li">
+                  - Requesting top up funds
+                </ProjectDetailContent>
+              </ProjectDetailList>
+            </div>
+
+            <div>
+              <ProjectDetailSmallHeading styleType="secondary">
+                Supervisor Pain
+              </ProjectDetailSmallHeading>
+
+              <ProjectDetailList>
+                <ProjectDetailContent as="li">
+                  - Managing top up fund requests
+                </ProjectDetailContent>
+                <ProjectDetailContent as="li">
+                  - Managing loan set up
+                </ProjectDetailContent>
+                <ProjectDetailContent as="li">
+                  - Managing Staff and staff settings
+                </ProjectDetailContent>
+              </ProjectDetailList>
+            </div>
+          </AsusuListGroup>
         </ProjectDetailBlock>
 
         <ProjectDetailBlock>
