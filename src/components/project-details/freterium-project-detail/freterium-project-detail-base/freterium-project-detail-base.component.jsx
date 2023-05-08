@@ -2,7 +2,6 @@
 import React from "react";
 
 // Components
-import { Link } from "react-router-dom";
 import { ReactComponent as FreteriumScheduling } from "../../../../assets/images/freterium-scheduling.svg";
 import { ReactComponent as FreteriumTracking } from "../../../../assets/images/freterium-tracking.svg";
 import { ReactComponent as FreteriumDriver } from "../../../../assets/images/freterium-driver.svg";
@@ -248,7 +247,7 @@ export const FreteriumProjectDetailBase = () => {
         </ProjectDetailBlock>
 
         <ProjectDetailButtonGroup>
-          <ProjectDetailButton as={Link} to="/projects/bongalo">
+          <ProjectDetailButton to="/projects/bongalo">
             Next project
           </ProjectDetailButton>
         </ProjectDetailButtonGroup>

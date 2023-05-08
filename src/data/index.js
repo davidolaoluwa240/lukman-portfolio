@@ -632,3 +632,65 @@ export const BONGALO_PROJECT_HERO_DETAILS = {
     },
   ],
 };
+
+// Asusu Project Hero Details
+export const ASUSU_PROJECT_HERO_DETAILS = {
+  jobContext:
+    "Transforming Savings and Credit Cooperatives (SACCOs) through Digitization",
+  projectYear: 2017,
+  projectWebsite: "https://www.freterium.com/",
+  jobRole: "Product  designer",
+  jobRoleSummary: [
+    {
+      id: 1,
+      name: "Research",
+    },
+    {
+      id: 2,
+      name: "Running Workshops",
+    },
+    {
+      id: 3,
+      name: "Wireframing",
+    },
+    {
+      id: 4,
+      name: "Screen Flows",
+    },
+    {
+      id: 5,
+      name: "Visual Design",
+    },
+    {
+      id: 6,
+      name: "Usability Testing",
+    },
+  ],
+  jobCollaborators: [
+    {
+      id: 1,
+      collaboratorName: "BARDESON LUCKY",
+      collaboratorRole: "Lead Engineer",
+      collaboratorSocialLink:
+        "https://www.linkedin.com/in/bardeson-lucky-687ab834/",
+    },
+    {
+      id: 2,
+      collaboratorName: "Mubarak Muhammad Aminu",
+      collaboratorRole: "Backend engineer",
+      collaboratorSocialLink: "https://www.linkedin.com/in/mubarak-aminu/",
+    },
+    {
+      id: 3,
+      collaboratorName: "Amlai (Istifanus) Bitrus",
+      collaboratorRole: "Business analyst",
+      collaboratorSocialLink: "https://www.linkedin.com/in/bitrus-amlai/",
+    },
+    {
+      id: 4,
+      collaboratorName: "Yusuf Walter Zakari",
+      collaboratorRole: "CEO",
+      collaboratorSocialLink: "https://www.linkedin.com/in/yzakari/",
+    },
+  ],
+};

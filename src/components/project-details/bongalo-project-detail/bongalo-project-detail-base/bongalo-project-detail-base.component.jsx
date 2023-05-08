@@ -2,10 +2,11 @@
 import React from "react";
 
 // Components
-import { Link } from "react-router-dom";
+import { Paper } from "../../../paper/paper.component";
 
 // Style
 import { Container } from "../../../../assets/styles";
+import { PaperContent, PaperGroup } from "../../../paper/paper.styles";
 import {
   ProjectDetailBaseWrapper,
   ProjectDetailContent,
@@ -125,6 +126,75 @@ export const BongaloProjectDetailBase = () => {
             target group was the best thing for the team to make sense of
             everything:
           </ProjectDetailContent>
+
+          <PaperGroup mt="lg">
+            <Paper heading="👤 Demographics & Psychographics required e.g.">
+              <PaperContent>Demographic Information</PaperContent>
+              <ProjectDetailList as="ol">
+                <PaperContent as="li">
+                  Age: Generation X , Y and Z (people within the age of early 23
+                  - 65)
+                </PaperContent>
+                <PaperContent as="li">
+                  Location: Our target audience are individuals who have
+                  intentions of visiting and exploring Africa.
+                </PaperContent>
+                <PaperContent as="li">
+                  Occupation: No boundaries - anyone traveling for business or
+                  pleasure
+                </PaperContent>
+              </ProjectDetailList>
+
+              <PaperContent>
+                Psychographic Information Attitudes, Values & Lifestyle
+              </PaperContent>
+              <ProjectDetailList as="ol">
+                <PaperContent as="li">Non-tech savvy.</PaperContent>
+                <PaperContent as="li">
+                  Preference to a certain space type.
+                </PaperContent>
+                <PaperContent as="li">
+                  Exploring places near lodging area even without the help of a
+                  tour guide.
+                </PaperContent>
+                <PaperContent as="li">
+                  Unaware / having difficulty on how to make extra cash from
+                  your space.
+                </PaperContent>
+              </ProjectDetailList>
+            </Paper>
+
+            <Paper heading="👤 Demographics & Psychographics required e.g.">
+              <PaperContent>Demographic Information</PaperContent>
+              <ProjectDetailList as="ol">
+                <PaperContent as="li">
+                  Age: Generation X , Y and Z (people within the age of early 23
+                  - 65)
+                </PaperContent>
+                <PaperContent as="li">
+                  Location: Our target audience are individuals who own or
+                  manage housing properties for rent over short & long term
+                  periods across Africa.
+                </PaperContent>
+                <PaperContent as="li">Occupation: No boundaries</PaperContent>
+              </ProjectDetailList>
+
+              <PaperContent>
+                Psychographic Information Attitudes, Values & Lifestyle
+              </PaperContent>
+
+              <ProjectDetailList as="ol">
+                <PaperContent as="li">Non-tech savvy.</PaperContent>
+                <PaperContent as="li">
+                  Unaware / having difficulty on how to make extra cash from
+                  your space.
+                </PaperContent>
+                <PaperContent as="li">
+                  Preference in short / long term rental to tenancy rental
+                </PaperContent>
+              </ProjectDetailList>
+            </Paper>
+          </PaperGroup>
         </ProjectDetailBlock>
 
         <ProjectDetailBlock>
@@ -157,15 +227,11 @@ export const BongaloProjectDetailBase = () => {
         </ProjectDetailBlock>
 
         <ProjectDetailButtonGroup>
-          <ProjectDetailButton
-            as={Link}
-            to="/projects/freterium"
-            btnColor="secondary"
-          >
+          <ProjectDetailButton to="/projects/freterium" btnColor="secondary">
             Previous project
           </ProjectDetailButton>
 
-          <ProjectDetailButton as={Link} to="/projects/asusu">
+          <ProjectDetailButton to="/projects/asusu">
             Next project
           </ProjectDetailButton>
         </ProjectDetailButtonGroup>

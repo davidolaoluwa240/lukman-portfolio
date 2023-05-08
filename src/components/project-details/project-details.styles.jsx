@@ -1,6 +1,9 @@
 // Modules
 import styled, { css } from "styled-components";
 
+// Components
+import { Link } from "react-router-dom";
+
 // Shared
 import { COLORS } from "../../assets/styles";
 
@@ -64,7 +67,7 @@ export const ProjectDetailButtonGroup = styled.div`
   margin: 9.6rem 0;
 `;
 
-export const ProjectDetailButton = styled.button`
+export const ProjectDetailButton = styled(Link)`
   text-decoration: none;
   border: none;
   padding: 1.7rem 3.5rem 1.5rem 3.6rem;

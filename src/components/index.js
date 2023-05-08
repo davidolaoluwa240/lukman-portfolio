@@ -7,3 +7,4 @@ export * from "./connect";
 export * from "./resources";
 export * from "./project-details";
 export * from "./tertiary-hero/tertiary-hero.component";
+export * from "./paper/paper.component";
