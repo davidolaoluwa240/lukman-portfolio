@@ -29,13 +29,19 @@ export const PaperWrapper = styled.div`
 `;
 
 export const PaperHeading = styled.h5`
-  font-family: "Vollkorn";
+  font-family: "Vollkorn", serif;
   font-weight: 700;
   line-height: 41px;
   font-size: 2.4rem;
 `;
 
-export const PaperSubheading = styled.h6``;
+export const PaperSubheading = styled.h6`
+  font-family: "Vollkorn", serif;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 34px;
+  margin-bottom: 3.4rem;
+`;
 
 export const PaperContent = styled.p`
   font-size: 1.6rem;

@@ -77,7 +77,7 @@ export const FreteriumProjectDetailBase = () => {
 
         <ProjectDetailBlock>
           <ProjectDetailHeading>Project goals</ProjectDetailHeading>
-          <ProjectDetailSubHeading>
+          <ProjectDetailSubHeading as="small">
             we want the users to
           </ProjectDetailSubHeading>
 

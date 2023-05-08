@@ -44,14 +44,27 @@ export const ProjectDetailContent = styled.p`
     }
   }};
 
-  ${({ mt }) => {
-    switch (mt) {
+  ${({ mt, mb }) => {
+    switch (mt || mb) {
       case "sm":
-        return "margin-top: 1.7rem";
+        return (mt && "margin-top: 1.7rem") || (mb && "margin-bottom: 1.7rem");
       case "md":
-        return "margin-top: 2.3rem";
+        return (mt && "margin-top: 2.3rem") || (mb && "margin-bottom: 2.3rem");
+      case "lg":
+        return (mt && "margin-top: 2.4rem") || (mb && "margin-bottom: 2.4rem");
+      case "xl":
+        return (mt && "margin-top: 6.7rem") || (mb && "margin-bottom: 6.7rem");
     }
   }};
+
+  ${({ textAlign }) => `text-align: ${textAlign}`}
+`;
+
+export const ProjectDetailQuote = styled.blockquote`
+  padding: 1.5rem 0 1.5rem 2.8rem;
+  margin-top: 2.4rem;
+  margin-bottom: 0.8rem;
+  border-left: 2px solid ${COLORS["secondary-color"]};
 `;
 
 export const ProjectDetailList = styled.ul`
@@ -114,6 +127,32 @@ export const ProjectDetailButton = styled(Link)`
           &:hover {
             background: rgba(190, 88, 52, 0.8);
           }
+        `;
+    }
+  }}
+`;
+
+export const ProjectDetailSmallHeading = styled.small`
+  display: block;
+  font-weight: 400;
+
+  ${({ mb }) => mb && "margin-bottom: 1rem"};
+
+  ${({ styleType }) => {
+    switch (styleType) {
+      case "secondary":
+        return css`
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 34px;
+          color: ${COLORS["text-color-7"]};
+        `;
+      default:
+        return css`
+          line-height: 27px;
+          font-size: 1.9rem;
+          letter-spacing: 0.224px;
+          color: ${COLORS["text-color-6"]};
         `;
     }
   }}

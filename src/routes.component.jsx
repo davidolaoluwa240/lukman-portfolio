@@ -11,6 +11,7 @@ import {
   Resources,
   FreteriumProjectDetail,
   BongaloProjectDetail,
+  AsusuProjectDetail,
 } from "./routes";
 
 // Layouts
@@ -26,6 +27,7 @@ const Routes = () => {
         <Route path="projects" element={<ProjectDetailsLayout />}>
           <Route path="freterium" element={<FreteriumProjectDetail />} />
           <Route path="bongalo" element={<BongaloProjectDetail />} />
+          <Route path="asusu" element={<AsusuProjectDetail />} />
         </Route>
       </Route>
     </Switch>

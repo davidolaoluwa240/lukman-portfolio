@@ -640,6 +640,7 @@ export const ASUSU_PROJECT_HERO_DETAILS = {
   projectYear: 2017,
   projectWebsite: "https://www.freterium.com/",
   jobRole: "Product  designer",
+  projectPlatform: [],
   jobRoleSummary: [
     {
       id: 1,

@@ -4,3 +4,4 @@ export * from "./connect/connect.component";
 export * from "./resources/resources.component";
 export * from "./project-details/freterium-project-detail/freterium-project-detail.component";
 export * from "./project-details/bongalo-project-detail/bongalo-project-detail.component.jsx";
+export * from "./project-details/asusu-project-detail/asusu-project-detail.component";
